@@ -7,5 +7,5 @@ public class AboutMeTest {
 		System.out.println("my name is: " + obj.name + "\nMy Gender is: " + obj.gender);
 
 	}
-
+//
 }
