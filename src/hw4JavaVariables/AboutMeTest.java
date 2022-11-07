@@ -1,10 +1,9 @@
 package hw4JavaVariables;
 
-
 public class AboutMeTest {
 
 	public static void main(String[] args) {
-		AboutMe obj1 = new AboutMe();//Constructor is initialised here
+		AboutMe obj1 = new AboutMe();// Constructor is initialised here
 //		variable initialised
 		obj1.name = "Ngawang";
 		obj1.age = 16;
@@ -15,10 +14,10 @@ public class AboutMeTest {
 		obj1.height = 6.245f;
 		obj1.weight = 160.14285714;
 		obj1.allInfoCorrect = true;
-		obj1.aboutMe();//Method is initialised
-		
+		obj1.aboutMe();// Method is initialised
+
 		System.out.println("---------------------------------");
-		AboutMe obj2 = new AboutMe();//Constructor is initialised here
+		AboutMe obj2 = new AboutMe();// Constructor is initialised here
 //		variable initialised
 		obj2.name = "Alex";
 		obj2.age = 24;
@@ -29,7 +28,7 @@ public class AboutMeTest {
 		obj2.height = 5.245f;
 		obj2.weight = 160.14285714;
 		obj2.allInfoCorrect = true;
-		obj2.aboutMe();//Method is initialised
+		obj2.aboutMe();// Method is initialised
 
 	}
 

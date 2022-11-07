@@ -11,18 +11,17 @@ public class AboutMe {
 	float height;
 	double weight;
 	boolean allInfoCorrect;
-	
+
 //	Constructor is declared here
-    public AboutMe() {
+	public AboutMe() {
 		System.out.println("This is all about us:");
 	}
-	
+
 //    Method is implemented
 	public void aboutMe() {
-		System.out.println("Name: "+name+"\nAge: "+age+"\nRoll No: "+rollNumber+
-				"\nPhone Number: "+phoneNumber+"\nAcc No: "+accNumber+"\ngender: "
-				+gender+"\nHeight: "+height+"\nWeight: "+weight+
-				"\nAll Information correct?: "+allInfoCorrect);
+		System.out.println("Name: " + name + "\nAge: " + age + "\nRoll No: " + rollNumber + "\nPhone Number: "
+				+ phoneNumber + "\nAcc No: " + accNumber + "\ngender: " + gender + "\nHeight: " + height + "\nWeight: "
+				+ weight + "\nAll Information correct?: " + allInfoCorrect);
 	}
 
 }
