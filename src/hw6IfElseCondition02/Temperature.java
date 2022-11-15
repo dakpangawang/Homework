@@ -14,11 +14,12 @@ public class Temperature {
 			System.out.println("Pleasant");
 		} else if (todaysTemperature < 73) {
 			System.out.println("Getting Warmer");
-		} else if (todaysTemperature < 101) {
+		} else if (todaysTemperature > 101) {
 			System.out.println("Hot");
 		} else {
 			System.out.println("Please put Ice on my Head");
 		}
+		scanner.close();
 
 	}
 
