@@ -1,7 +1,5 @@
 package hw1JavaBasic;
 
-import java.util.Scanner;
-
 /*
  * Project name generally starts with uppercase 
  * Package name generally starts with lowercase
@@ -14,11 +12,7 @@ public class MySelf {
 //	it is a static method
 	public static void main(String[] args) {
 		System.out.println("Ngawang Dakpa");
-		System.out.println("New York"); 
-	}
-	{
-		// TODO Auto-generated method stub
-
+		System.out.println("New York");
 	}
 
 }
